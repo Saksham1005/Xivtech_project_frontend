@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [cities, setCities] = useState("");
   const [weatherData, setWeatherData] = useState({});
-  const API_URL = "http://localhost:3000/getWeather";
+  const API_URL = "https://xivtech-backend.onrender.com/getWeather";
 
   const getWeatherData = async () => {
     try {
